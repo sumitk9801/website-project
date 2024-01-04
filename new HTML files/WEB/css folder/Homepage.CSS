@@ -1,0 +1,92 @@
+/* style.css */
+ 
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+} 
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+section {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+body {
+  background-color: #ffffff;  /* Light gray background */
+  color: #333;             /* Dark gray text */
+  font-family: sans-serif;
+}
+
+ header {
+  background-color: #b14444;  /* Vibrant blue header */
+  color: #fff;              /* White text on header */
+  padding:15px;
+}
+.box {
+  width: 200px; /* Adjust for desired box size */
+  height: 100px;
+  background-color: #f88e8e; /* Adjust color as needed */
+  box-shadow: 10px 10px 8px rgba(29, 27, 27, 0.2); /* Shadow effect */
+  border-radius: 100px; /* Rounded corners */
+  margin-top: 20px; /* Adjust spacing between shapes */
+}
+.pyqs {
+  width: 200px; /* Adjust for desired box size */
+  height: 100px;
+  background-color: #f88e8e; /* Adjust color as needed */
+  box-shadow: 10px 10px 8px rgba(29, 27, 27, 0.2); /* Shadow effect */
+  border-radius: 100px; /* Rounded corners */
+  margin-top: 20px; /* Adjust spacing between shapes */
+}
+.Tracker{
+  width: 200px; /* Adjust for desired box size */
+  height: 100px;
+  background-color: #f88e8e; /* Adjust color as needed */
+  box-shadow: 10px 10px 8px rgba(29, 27, 27, 0.2); /* Shadow effect */
+  border-radius: 100px; /* Rounded corners */
+  margin-top: 20px; /* Adjust spacing between shapes */
+}
+.Notification{
+  width: 200px; /* Adjust for desired box size */
+  height: 100px;
+  background-color: #f88e8e; /* Adjust color as needed */
+  box-shadow: 10px 10px 8px rgba(29, 27, 27, 0.2); /* Shadow effect */
+  border-radius: 100px; /* Rounded corners */
+  margin-top: 20px; /* Adjust spacing between shapes */
+}
+
+main {
+  background-color: #fff;    /* White content area */
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+}
+h2{
+  text-align: center;
+  padding-top: 10px;
+}
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+
+/* Adjust other elements for dark mode as needed */

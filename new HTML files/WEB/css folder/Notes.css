@@ -1,0 +1,56 @@
+/* style.css */
+/* ... other styles ... */
+
+
+
+header{
+  text-align: center;
+}
+
+.chapter-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Apply different colors using the nth-child selector */
+  .chapter-section:nth-child(1) {
+    background-color: #f0f0f0;
+  }
+  
+  .chapter-section:nth-child(2) {
+    background-color: #f5f5f5;
+  }
+  
+  .chapter-section:nth-child(3) {
+    background-color: #f8f8f8;
+  }
+  .chapter-section:nth-child(4) {
+    background-color: #f8f8f8;
+  }
+  .chapter-section:nth-child(5) {
+    background-color: #f8f8f8;
+  }
+  .chapter-section:nth-child(6) {
+    background-color: #f8f8f8;
+  }
+  .chapter-section:nth-child(7) {
+    background-color: #f8f8f8;
+  }
+  .chapter-section:nth-child(8) {
+    background-color: #f8f8f8;
+  }
+  body{
+    background-color:#66dfdd;
+  }
+  .search-input{
+    border-radius:10px;
+  }
+  
+
+
+
+ 
+  
+  /* ... continue for chapters 4-12, choosing different shades of gray or other colors ... */
+  

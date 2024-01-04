@@ -1,0 +1,70 @@
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent; /* Adjust for desired triangle size */
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #f00; /* Adjust color as needed */
+    border-radius: 10px; /* Rounded edges */
+    background: linear-gradient(to bottom, #f00 50%, rgba(255, 0, 0, 0)); /* Fade effect */
+  }
+  
+  .box {
+    width: 200px; /* Adjust for desired box size */
+    height: 100px;
+    background-color: #f88e8e; /* Adjust color as needed */
+    box-shadow: 10px 10px 8px rgba(29, 27, 27, 0.2); /* Shadow effect */
+    border-radius: 100px; /* Rounded corners */
+    margin-top: 20px; /* Adjust spacing between shapes */
+  }
+  .circular-box {
+    width: 200px; /* Adjust for desired size */
+    height: 200px;
+    border-radius: 50%; /* Create the circular shape */
+    background-color: #b2f5b2; /* Light green background */
+    box-shadow: 0px 4px 8px rgba(30, 27, 27, 0.3), inset 15px 20px 4px rgba(69, 73, 64, 0.2); /* Outer and inner shadows */
+  }
+  .search-bar {
+    width: 300px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    background-color: #f2f2f2; /* Adjust background color as desired */
+    border-radius: 100px; /* Rounded edges with 100px radius */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .fade-red-rectangle {
+    width: 200px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    background: linear-gradient(to bottom, rgba(212, 153, 98, 0.8), rgba(243, 225, 110, 0.2)); /* Fade red gradient */
+    filter: blur(3px); /* Apply 25% layer blur (adjust as needed) */
+    border-radius: 5px; /* Optional rounded corners */
+    border-radius: 100px;
+  }
+  .blurred-heading {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.2)); /* Fade red gradient */
+    filter: blur(2px); /* Apply 25% layer blur (adjust as needed) */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text horizontally */
+    padding: 20px;
+    border-radius: 5px; /* Optional rounded corners */
+  }
+  
+ 
+  

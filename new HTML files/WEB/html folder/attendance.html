@@ -2,39 +2,24 @@
 <html>
 <head>
 <title>Interactive Calendar</title>
-<link rel="stylesheet" href="./attendance.css">
+<link rel="stylesheet" href="../css folder/attendance.css">
 </head>
 <body>
+  <h1>Attendance Tracker</h1>
+  
+  <div class="tracker-container">
+      <label for="total-classes">Total Classes:</label>
+      <input type="number" id="total-classes" value="0">
 
-<h1>Calendar</h1>
+      <label for="classes-attended">Classes Attended:</label>
+      <input type="number" id="classes-attended" value="0">
 
-<table id="calendar-table">
-  <thead>
-    <tr>
-      <th>Sun</th>
-      <th>Mon</th>
-      <th>Tue</th>
-      <th>Wed</th>
-      <th>Thu</th>
-      <th>Fri</th>
-      <th>Sat</th>
-    </tr>
-  </thead>
-  <thead>
-    <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-    </tr>
-  </thead>
-  <tbody id="calendar-body"></tbody>
-</table>
+      <button id="calculate-attendance">Calculate Attendance</button>
 
-<script src="../js folder/script.js"></script>
+      <p id="attendance-percentage"></p>
+      <p id="attendance-status"></p>
+  </div>
 
+  <script src="../js folder/attendance.js"></script>
 </body>
 </html>

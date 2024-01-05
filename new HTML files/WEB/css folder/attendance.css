@@ -1,25 +1,44 @@
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  th, td {
-    text-align: center;
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  .marked {
-    background-color: #f0f0f0;
-  }
-  
-  .comment-input {
-    display: none;
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 5px;
-  }
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Styling for input fields and labels */
+.total-classes,
+.classes-attended {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the attendance result */
+.attendance-result {
+  margin-top: 20px;
+  font-size: 18px;
+}
   
